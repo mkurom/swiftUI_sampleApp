@@ -1,3 +1,2 @@
 # swiftUI_sampleApp
-
-SwiftUI サンプル
+SwiftUI 勉強用
