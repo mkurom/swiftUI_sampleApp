@@ -14,13 +14,30 @@ struct ContentView: View {
     @State var inputText = ""
     
     var body: some View {
-        TextField(
-            "キーワードを入力してください",
-            text: $inputText,
-            onCommit: {
-                okashiDataList.searchOkashi(keyword: inputText)
+        
+        VStack {
+            TextField(
+                "キーワードを入力してください",
+                text: $inputText,
+                onCommit: {
+                    okashiDataList.searchOkashi(keyword: inputText)
+                }
+            )
+            .border(.secondary)
+            .padding()
+            
+            List(okashiDataList.okashiList) { okashi in
+                
+                HStack {
+                    Image(uiImage: okashi.image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 40)
+                    
+                    Text(okashi.name)
+                }
             }
-        ).border(.secondary)
+        }
     }
 }
 
