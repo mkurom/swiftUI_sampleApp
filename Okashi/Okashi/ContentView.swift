@@ -13,6 +13,8 @@ struct ContentView: View {
     
     @State var inputText = ""
     
+    @State var showSafari = false
+    
     var body: some View {
         
         VStack {
@@ -27,15 +29,23 @@ struct ContentView: View {
             .padding()
             
             List(okashiDataList.okashiList) { okashi in
-                
-                HStack {
-                    Image(uiImage: okashi.image)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(height: 40)
-                    
-                    Text(okashi.name)
+
+                Button(action: {
+                        showSafari.toggle()
+                }) {
+                    HStack {
+                        Image(uiImage: okashi.image)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(height: 40)
+                        
+                        Text(okashi.name)
+                    }
                 }
+                .sheet(isPresented: self.$showSafari, content: {
+                    SafariView(url: okashi.link)
+                        .edgesIgnoringSafeArea(.bottom)
+                })
             }
         }
     }
