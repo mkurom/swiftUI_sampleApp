@@ -46,6 +46,7 @@
 		E9A415D529C5AD0000C432A4 /* OkashiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiUITests.swift; sourceTree = "<group>"; };
 		E9A415D729C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E9A415E429C5B19400C432A4 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
+		E9A415EB29C636F500C432A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		E9A415B929C5ACFC00C432A4 /* Okashi */ = {
 			isa = PBXGroup;
 			children = (
+				E9A415EB29C636F500C432A4 /* Info.plist */,
 				E9A415BA29C5ACFC00C432A4 /* OkashiApp.swift */,
 				E9A415BC29C5ACFC00C432A4 /* ContentView.swift */,
 				E9A415E429C5B19400C432A4 /* OkashiData.swift */,
@@ -424,6 +426,7 @@
 				DEVELOPMENT_TEAM = T89TZFBF4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Okashi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +456,7 @@
 				DEVELOPMENT_TEAM = T89TZFBF4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Okashi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
