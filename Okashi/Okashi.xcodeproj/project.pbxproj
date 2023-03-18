@@ -14,6 +14,7 @@
 		E9A415CC29C5ACFF00C432A4 /* OkashiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415CB29C5ACFF00C432A4 /* OkashiTests.swift */; };
 		E9A415D629C5AD0000C432A4 /* OkashiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415D529C5AD0000C432A4 /* OkashiUITests.swift */; };
 		E9A415D829C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415D729C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift */; };
+		E9A415E529C5B19400C432A4 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415E429C5B19400C432A4 /* OkashiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E9A415D129C5AD0000C432A4 /* OkashiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkashiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A415D529C5AD0000C432A4 /* OkashiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiUITests.swift; sourceTree = "<group>"; };
 		E9A415D729C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9A415E429C5B19400C432A4 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E9A415BA29C5ACFC00C432A4 /* OkashiApp.swift */,
 				E9A415BC29C5ACFC00C432A4 /* ContentView.swift */,
+				E9A415E429C5B19400C432A4 /* OkashiData.swift */,
 				E9A415BE29C5ACFF00C432A4 /* Assets.xcassets */,
 				E9A415C029C5ACFF00C432A4 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A415BD29C5ACFC00C432A4 /* ContentView.swift in Sources */,
+				E9A415E529C5B19400C432A4 /* OkashiData.swift in Sources */,
 				E9A415BB29C5ACFC00C432A4 /* OkashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

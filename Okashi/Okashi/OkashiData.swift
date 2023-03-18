@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class OkashiData: ObservableObject{
+    func searchOkashi(keyword: String) -> Void {
+        print(keyword)
+    }
+}
