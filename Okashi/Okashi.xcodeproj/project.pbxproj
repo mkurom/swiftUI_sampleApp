@@ -15,6 +15,7 @@
 		E9A415D629C5AD0000C432A4 /* OkashiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415D529C5AD0000C432A4 /* OkashiUITests.swift */; };
 		E9A415D829C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415D729C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift */; };
 		E9A415E529C5B19400C432A4 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415E429C5B19400C432A4 /* OkashiData.swift */; };
+		E9A415ED29C6378100C432A4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A415EC29C6378100C432A4 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E9A415D729C5AD0000C432A4 /* OkashiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E9A415E429C5B19400C432A4 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
 		E9A415EB29C636F500C432A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A415EC29C6378100C432A4 /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E9A415EB29C636F500C432A4 /* Info.plist */,
 				E9A415BA29C5ACFC00C432A4 /* OkashiApp.swift */,
 				E9A415BC29C5ACFC00C432A4 /* ContentView.swift */,
+				E9A415EC29C6378100C432A4 /* SafariView.swift */,
 				E9A415E429C5B19400C432A4 /* OkashiData.swift */,
 				E9A415BE29C5ACFF00C432A4 /* Assets.xcassets */,
 				E9A415C029C5ACFF00C432A4 /* Preview Content */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A415ED29C6378100C432A4 /* SafariView.swift in Sources */,
 				E9A415BD29C5ACFC00C432A4 /* ContentView.swift in Sources */,
 				E9A415E529C5B19400C432A4 /* OkashiData.swift in Sources */,
 				E9A415BB29C5ACFC00C432A4 /* OkashiApp.swift in Sources */,
